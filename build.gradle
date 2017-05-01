@@ -1,3 +1,6 @@
+plugins {
+    id "com.linkedin.python" version "0.4.9"
+}
 group 'memn.hackerrank'
 version '1.0-SNAPSHOT'
 
