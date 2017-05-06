@@ -4,3 +4,8 @@
 .class
 .jar
 .war
+.vscode
+.project
+.classpath
+.settings
+*temp
