@@ -8,7 +8,7 @@ package memn.hackerrank
  *
  */
 
-fun readInts(separator: Char = ' ') = readLine()!!.split(separator).map(String::toInt)
+private fun readInts(separator: Char = ' ') = readLine()!!.split(separator).map(String::toInt)
 
 fun main(vararg args: String) {
     val (n, q) = readInts()
