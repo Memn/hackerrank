@@ -13,7 +13,7 @@ fun triplets(a: Array<Int>, b: Array<Int>, c: Array<Int>): Long {
     return count
 }
 
-fun List<Int>.binarySearch(element: Int, fromIndex: Int = 0, toIndex: Int = size): Int {
+internal fun List<Int>.binarySearch(element: Int, fromIndex: Int = 0, toIndex: Int = size): Int {
 
     var low = fromIndex
     var high = toIndex - 1
